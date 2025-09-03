@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pintor Profissional</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { line-height: 1.6; }
+        header { background: #1e3d59; color: white; text-align: center; padding: 50px 20px; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; }
+        section {
+            padding: 40px 20px; display: flex; flex-direction: column; 
+            align-items: center; text-align: center;
+        }
+        .servicos, .vantagens, .depoimentos { background: #f2f2f2; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1200px; width: 100%; }
+        .card {
+            background: white; padding: 20px;  border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1 1 250px;  max-width: 300px;
+        }
+        form { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 400px; }
+        input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        button { 
+            background: #1e3d59; color: white; border: none; padding: 12px; 
+            border-radius: 5px; cursor: pointer; font-size: 1rem;
+        }
+        button:hover { background: #163045; }
+        footer {
+            background: #1e3d59; color: white; text-align: center;
+            padding: 15px; font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2rem; }
+            .container { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pintor Profissional</h1>
+        <p>Transformando sua casa ou empresa com qualidade e dedicação!</p>
+    </header>
+    <section class="servicos">
+        <h2>Serviços Oferecidos</h2>
+        <div class="container">
+            <div class="card">
+                <h3>Pintura Residencial</h3>
+                <p>Renovação de ambientes internos e externos com acabamento profissional.</p>
+            </div>
+            <div class="card">
+                <h3>Pintura Comercial</h3>
+                <p>Deixe seu negócio mais atraente e profissional para os clientes.</p>
+            </div>
+            <div class="card">
+                <h3>Texturas e Efeitos</h3>
+                <p>Aplicação de texturas, grafiatos e efeitos decorativos modernos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="vantagens">
+        <h2>Por que escolher nossos serviços?</h2>
+        <div class="container">
+            <div class="card">
+                <h3>Profissionalismo</h3>
+                <p>Equipe experiente e qualificada.</p>
+            </div>
+            <div class="card">
+                <h3>Qualidade</h3>
+                <p>Materiais de primeira linha e acabamento impecável.</p>
+            </div>
+            <div class="card">
+                <h3>Prazo Garantido</h3>
+                <p>Compromisso com os prazos acordados.</p>
+            </div>
+        </div>
+    </section>
+    <section class="depoimentos">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="container">
+            <div class="card">
+                <p>"Meu apartamento ficou novo! Trabalho rápido e caprichado!"</p>
+                <strong>- Ana Souza</strong>
+            </div>
+            <div class="card">
+                <p>"Excelente atendimento e preço justo. Recomendo!"</p>
+                <strong>- João Silva</strong>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Peça seu orçamento</h2>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea rows="4" placeholder="Descreva seu projeto"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer> <p>&copy; 2025 Pintor Profissional - Todos os direitos reservados</p> </footer>
+</body>
+</html>
