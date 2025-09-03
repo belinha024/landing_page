@@ -27,4 +27,7 @@ Por fim, há o formulário onde a pessoa pode deixar nome, e-mail e uma breve de
 
 Tudo termina com um rodapé simples, informando os direitos autorais. 
 O resultado é uma página objetiva e agradável de navegar: apresenta a empresa, explica o que ela faz, mostra por que vale a pena contratá-la e oferece um jeito fácil de entrar em contato. 
+
 Ou seja, cumpre exatamente o que uma landing page deve fazer — atrair o cliente e facilitar o próximo passo.
+
+link para a pagina web desenvolvida: https://landing-page-two-sooty-98.vercel.app/
